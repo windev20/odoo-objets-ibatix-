@@ -7,6 +7,7 @@
     'depends': ['product', 'stock'],
     'data': [
         'security/ir.model.access.csv',
+        'views/operation_cee_views.xml',
         'views/mandataire_anah_views.xml',
         'views/mediateur_cee_views.xml',
         'views/delegataire_cee_views.xml',
@@ -16,6 +17,7 @@
         'views/auditeur_views.xml',
         'views/installateur_views.xml',
         'views/menus.xml',
+        'data/operations_cee.xml',
     ],
     'installable': True,
     'application': True,

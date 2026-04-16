@@ -1,4 +1,5 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_operation_cee,ibatix.operation.cee,model_ibatix_operation_cee,base.group_user,1,1,1,1
 access_mandataire_anah,ibatix.mandataire.anah,model_ibatix_mandataire_anah,base.group_user,1,1,1,1
 access_delegataire_cee,ibatix.delegataire.cee,model_ibatix_delegataire_cee,base.group_user,1,1,1,1
 access_delegataire_operation,ibatix.delegataire.operation,model_ibatix_delegataire_operation,base.group_user,1,1,1,1

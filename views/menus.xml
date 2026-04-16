@@ -13,6 +13,12 @@
               sequence="10"/>
 
     <!-- Entrées de menu -->
+    <menuitem id="menu_operation_cee"
+              name="Opérations CEE"
+              parent="menu_ibatix_configuration"
+              action="action_operation_cee"
+              sequence="5"/>
+
     <menuitem id="menu_mandataire_anah"
               name="Mandataires ANAH"
               parent="menu_ibatix_configuration"

@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="op_cee_agri_eq_101" model="ibatix.operation.cee">
+            <field name="code">AGRI-EQ-101</field>
+            <field name="secteur">agri</field>
+            <field name="name">Module d'intégration de température installé sur un ordinateur climatique</field>
+        </record>
+        <record id="op_cee_agri_eq_102" model="ibatix.operation.cee">
+            <field name="code">AGRI-EQ-102</field>
+            <field name="secteur">agri</field>
+            <field name="name">Double écran thermique</field>
+        </record>
+        <record id="op_cee_agri_eq_104" model="ibatix.operation.cee">
+            <field name="code">AGRI-EQ-104</field>
+            <field name="secteur">agri</field>
+            <field name="name">Écrans thermiques latéraux</field>
+        </record>
+        <record id="op_cee_agri_eq_105" model="ibatix.operation.cee">
+            <field name="code">AGRI-EQ-105</field>
+            <field name="secteur">agri</field>
+            <field name="name">Stop &amp; Start pour véhicules agricoles à moteur</field>
+        </record>
+        <record id="op_cee_agri_eq_106" model="ibatix.operation.cee">
+            <field name="code">AGRI-EQ-106</field>
+            <field name="secteur">agri</field>
+            <field name="name">Régulation de la ventilation des silos et des installations de stockage en vrac de céréales</field>
+        </record>
+        <record id="op_cee_agri_eq_107" model="ibatix.operation.cee">
+            <field name="code">AGRI-EQ-107</field>
+            <field name="secteur">agri</field>
+            <field name="name">Isolation des parois de serre</field>
+        </record>
+        <record id="op_cee_agri_eq_108" model="ibatix.operation.cee">
+            <field name="code">AGRI-EQ-108</field>
+            <field name="secteur">agri</field>
+            <field name="name">Stockage d'eau pour une serre bioclimatique</field>
+        </record>
+        <record id="op_cee_agri_eq_109" model="ibatix.operation.cee">
+            <field name="code">AGRI-EQ-109</field>
+            <field name="secteur">agri</field>
+            <field name="name">Couverture performante de serre</field>
+        </record>
+        <record id="op_cee_agri_eq_110" model="ibatix.operation.cee">
+            <field name="code">AGRI-EQ-110</field>
+            <field name="secteur">agri</field>
+            <field name="name">Séchage solaire par insufflation des produits et co-produits agricoles et forestiers utilisant des panneaux solaires hybrides</field>
+        </record>
+        <record id="op_cee_agri_se_101" model="ibatix.operation.cee">
+            <field name="code">AGRI-SE-101</field>
+            <field name="secteur">agri</field>
+            <field name="name">Contrôle et préconisations de réglage du moteur d'un tracteur</field>
+        </record>
+        <record id="op_cee_agri_th_101" model="ibatix.operation.cee">
+            <field name="code">AGRI-TH-101</field>
+            <field name="secteur">agri</field>
+            <field name="name">Dispositif de stockage d'eau chaude de type « Open Buffer »</field>
+        </record>
+        <record id="op_cee_agri_th_102" model="ibatix.operation.cee">
+            <field name="code">AGRI-TH-102</field>
+            <field name="secteur">agri</field>
+            <field name="name">Dispositif de stockage d'eau chaude</field>
+        </record>
+        <record id="op_cee_agri_th_103" model="ibatix.operation.cee">
+            <field name="code">AGRI-TH-103</field>
+            <field name="secteur">agri</field>
+            <field name="name">Pré-refroidisseur de lait</field>
+        </record>
+        <record id="op_cee_agri_th_104" model="ibatix.operation.cee">
+            <field name="code">AGRI-TH-104</field>
+            <field name="secteur">agri</field>
+            <field name="name">Système de récupération de chaleur sur un groupe de production de froid hors tanks à lait</field>
+        </record>
+        <record id="op_cee_agri_th_105" model="ibatix.operation.cee">
+            <field name="code">AGRI-TH-105</field>
+            <field name="secteur">agri</field>
+            <field name="name">Récupérateur de chaleur sur tank à lait</field>
+        </record>
+        <record id="op_cee_agri_th_108" model="ibatix.operation.cee">
+            <field name="code">AGRI-TH-108</field>
+            <field name="secteur">agri</field>
+            <field name="name">Pompe à chaleur de type air/eau ou eau/eau</field>
+        </record>
+        <record id="op_cee_agri_th_109" model="ibatix.operation.cee">
+            <field name="code">AGRI-TH-109</field>
+            <field name="secteur">agri</field>
+            <field name="name">Récupérateur de chaleur à condensation pour serres horticoles</field>
+        </record>
+        <record id="op_cee_agri_th_110" model="ibatix.operation.cee">
+            <field name="code">AGRI-TH-110</field>
+            <field name="secteur">agri</field>
+            <field name="name">Chaudière à haute performance énergétique pour serres horticoles</field>
+        </record>
+        <record id="op_cee_agri_th_113" model="ibatix.operation.cee">
+            <field name="code">AGRI-TH-113</field>
+            <field name="secteur">agri</field>
+            <field name="name">Échangeur récupérateur de chaleur air/air dans un bâtiment d'élevage de volailles</field>
+        </record>
+        <record id="op_cee_agri_th_116" model="ibatix.operation.cee">
+            <field name="code">AGRI-TH-116</field>
+            <field name="secteur">agri</field>
+            <field name="name">Récupération de chaleur fatale issue d'un procédé industriel pour le chauffage d'une serre ou d'un bâtiment d'élevage</field>
+        </record>
+        <record id="op_cee_agri_th_117" model="ibatix.operation.cee">
+            <field name="code">AGRI-TH-117</field>
+            <field name="secteur">agri</field>
+            <field name="name">Déshumidificateur thermodynamique pour serres</field>
+        </record>
+        <record id="op_cee_agri_th_118" model="ibatix.operation.cee">
+            <field name="code">AGRI-TH-118</field>
+            <field name="secteur">agri</field>
+            <field name="name">Double tube de chauffage pour serres</field>
+        </record>
+        <record id="op_cee_agri_th_119" model="ibatix.operation.cee">
+            <field name="code">AGRI-TH-119</field>
+            <field name="secteur">agri</field>
+            <field name="name">Système de déshumidification avec air extérieur</field>
+        </record>
+        <record id="op_cee_agri_ut_101" model="ibatix.operation.cee">
+            <field name="code">AGRI-UT-101</field>
+            <field name="secteur">agri</field>
+            <field name="name">Moto-variateur synchrone à aimants permanents ou à reluctance</field>
+        </record>
+        <record id="op_cee_agri_ut_102" model="ibatix.operation.cee">
+            <field name="code">AGRI-UT-102</field>
+            <field name="secteur">agri</field>
+            <field name="name">Système de variation électronique de vitesse sur un moteur asynchrone</field>
+        </record>
+        <record id="op_cee_agri_ut_103" model="ibatix.operation.cee">
+            <field name="code">AGRI-UT-103</field>
+            <field name="secteur">agri</field>
+            <field name="name">Système de régulation sur un groupe de production de froid permettant d'avoir une basse pression flottante</field>
+        </record>
+        <record id="op_cee_agri_ut_104" model="ibatix.operation.cee">
+            <field name="code">AGRI-UT-104</field>
+            <field name="secteur">agri</field>
+            <field name="name">Système de régulation sur un groupe de production de froid permettant d'avoir une haute pression flottante</field>
+        </record>
+        <record id="op_cee_bar_en_101" model="ibatix.operation.cee">
+            <field name="code">BAR-EN-101</field>
+            <field name="secteur">bar</field>
+            <field name="name">Isolation de combles ou de toitures</field>
+        </record>
+        <record id="op_cee_bar_en_102" model="ibatix.operation.cee">
+            <field name="code">BAR-EN-102</field>
+            <field name="secteur">bar</field>
+            <field name="name">Isolation des murs</field>
+        </record>
+        <record id="op_cee_bar_en_103" model="ibatix.operation.cee">
+            <field name="code">BAR-EN-103</field>
+            <field name="secteur">bar</field>
+            <field name="name">Isolation d'un plancher</field>
+        </record>
+        <record id="op_cee_bar_en_104" model="ibatix.operation.cee">
+            <field name="code">BAR-EN-104</field>
+            <field name="secteur">bar</field>
+            <field name="name">Fenêtre ou porte-fenêtre complète avec vitrage isolant</field>
+        </record>
+        <record id="op_cee_bar_en_105" model="ibatix.operation.cee">
+            <field name="code">BAR-EN-105</field>
+            <field name="secteur">bar</field>
+            <field name="name">Isolation des toitures terrasses</field>
+        </record>
+        <record id="op_cee_bar_en_106" model="ibatix.operation.cee">
+            <field name="code">BAR-EN-106</field>
+            <field name="secteur">bar</field>
+            <field name="name">Isolation de combles ou de toitures (France d'outre-mer)</field>
+        </record>
+        <record id="op_cee_bar_en_107" model="ibatix.operation.cee">
+            <field name="code">BAR-EN-107</field>
+            <field name="secteur">bar</field>
+            <field name="name">Isolation des murs (France d'outre-mer)</field>
+        </record>
+        <record id="op_cee_bar_en_108" model="ibatix.operation.cee">
+            <field name="code">BAR-EN-108</field>
+            <field name="secteur">bar</field>
+            <field name="name">Fermeture isolante</field>
+        </record>
+        <record id="op_cee_bar_en_109" model="ibatix.operation.cee">
+            <field name="code">BAR-EN-109</field>
+            <field name="secteur">bar</field>
+            <field name="name">Réduction des apports solaires par la toiture (France d'outre-mer)</field>
+        </record>
+        <record id="op_cee_bar_en_110" model="ibatix.operation.cee">
+            <field name="code">BAR-EN-110</field>
+            <field name="secteur">bar</field>
+            <field name="name">Fenêtre ou porte-fenêtre complète avec vitrage pariétodynamique</field>
+        </record>
+        <record id="op_cee_bar_eq_101" model="ibatix.operation.cee">
+            <field name="code">BAR-EQ-101</field>
+            <field name="secteur">bar</field>
+            <field name="name">Lave-linge ménager de classe A++ ou A+++</field>
+        </record>
+        <record id="op_cee_bar_eq_102" model="ibatix.operation.cee">
+            <field name="code">BAR-EQ-102</field>
+            <field name="secteur">bar</field>
+            <field name="name">Lampe fluo-compacte de classe A</field>
+        </record>
+        <record id="op_cee_bar_eq_103" model="ibatix.operation.cee">
+            <field name="code">BAR-EQ-103</field>
+            <field name="secteur">bar</field>
+            <field name="name">Appareil de réfrigération ménager de classe A++ ou A+++</field>
+        </record>
+        <record id="op_cee_bar_eq_110" model="ibatix.operation.cee">
+            <field name="code">BAR-EQ-110</field>
+            <field name="secteur">bar</field>
+            <field name="name">Luminaire à modules LED avec dispositif de contrôle pour les parties communes</field>
+        </record>
+        <record id="op_cee_bar_eq_111" model="ibatix.operation.cee">
+            <field name="code">BAR-EQ-111</field>
+            <field name="secteur">bar</field>
+            <field name="name">Lampe à LED de classe A++ ou A+++</field>
+        </record>
+        <record id="op_cee_bar_eq_112" model="ibatix.operation.cee">
+            <field name="code">BAR-EQ-112</field>
+            <field name="secteur">bar</field>
+            <field name="name">Systèmes hydroéconomes (France métropolitaine)</field>
+        </record>
+        <record id="op_cee_bar_eq_113" model="ibatix.operation.cee">
+            <field name="code">BAR-EQ-113</field>
+            <field name="secteur">bar</field>
+            <field name="name">Dispositif d'affichage et d'interprétation des consommations pour un logement chauffé à l'électricité</field>
+        </record>
+        <record id="op_cee_bar_eq_114" model="ibatix.operation.cee">
+            <field name="code">BAR-EQ-114</field>
+            <field name="secteur">bar</field>
+            <field name="name">Dispositif d'affichage et d'interprétation des consommations d'énergie pour un logement chauffé au combustible</field>
+        </record>
+        <record id="op_cee_bar_eq_115" model="ibatix.operation.cee">
+            <field name="code">BAR-EQ-115</field>
+            <field name="secteur">bar</field>
+            <field name="name">Dispositif d'affichage et d'interprétation des consommations d'énergie</field>
+        </record>
+        <record id="op_cee_bar_se_104" model="ibatix.operation.cee">
+            <field name="code">BAR-SE-104</field>
+            <field name="secteur">bar</field>
+            <field name="name">Réglage des organes d'équilibrage d'une installation de chauffage à eau chaude</field>
+        </record>
+        <record id="op_cee_bar_se_105" model="ibatix.operation.cee">
+            <field name="code">BAR-SE-105</field>
+            <field name="secteur">bar</field>
+            <field name="name">Contrat de Performance Services (CPE Services)</field>
+        </record>
+        <record id="op_cee_bar_se_106" model="ibatix.operation.cee">
+            <field name="code">BAR-SE-106</field>
+            <field name="secteur">bar</field>
+            <field name="name">Contrat de service énergétique avec garantie de résultats (CPE Travaux)</field>
+        </record>
+        <record id="op_cee_bar_se_107" model="ibatix.operation.cee">
+            <field name="code">BAR-SE-107</field>
+            <field name="secteur">bar</field>
+            <field name="name">Abaissement de la température de retour vers un réseau de chaleur</field>
+        </record>
+        <record id="op_cee_bar_se_108" model="ibatix.operation.cee">
+            <field name="code">BAR-SE-108</field>
+            <field name="secteur">bar</field>
+            <field name="name">Système de management de l'énergie pour le chauffage en France métropolitaine</field>
+        </record>
+        <record id="op_cee_bar_th_101" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-101</field>
+            <field name="secteur">bar</field>
+            <field name="name">Chauffe-eau solaire individuel (France métropolitaine)</field>
+        </record>
+        <record id="op_cee_bar_th_102" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-102</field>
+            <field name="secteur">bar</field>
+            <field name="name">Chauffe-eau solaire collectif (France métropolitaine)</field>
+        </record>
+        <record id="op_cee_bar_th_104" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-104</field>
+            <field name="secteur">bar</field>
+            <field name="name">Pompe à chaleur de type air/eau ou eau/eau</field>
+        </record>
+        <record id="op_cee_bar_th_106" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-106</field>
+            <field name="secteur">bar</field>
+            <field name="name">Chaudière individuelle à haute performance énergétique</field>
+        </record>
+        <record id="op_cee_bar_th_107" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-107</field>
+            <field name="secteur">bar</field>
+            <field name="name">Chaudière collective haute performance énergétique</field>
+        </record>
+        <record id="op_cee_bar_th_110" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-110</field>
+            <field name="secteur">bar</field>
+            <field name="name">Chaudière collective haute performance énergétique avec contrat assurant la conduite de l'installation</field>
+        </record>
+        <record id="op_cee_bar_th_111" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-111</field>
+            <field name="secteur">bar</field>
+            <field name="name">Régulation par sonde de température extérieure</field>
+        </record>
+        <record id="op_cee_bar_th_112" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-112</field>
+            <field name="secteur">bar</field>
+            <field name="name">Appareil indépendant de chauffage au bois</field>
+        </record>
+        <record id="op_cee_bar_th_113" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-113</field>
+            <field name="secteur">bar</field>
+            <field name="name">Chaudière biomasse individuelle</field>
+        </record>
+        <record id="op_cee_bar_th_115" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-115</field>
+            <field name="secteur">bar</field>
+            <field name="name">Chaudière à condensation individuelle</field>
+        </record>
+        <record id="op_cee_bar_th_116" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-116</field>
+            <field name="secteur">bar</field>
+            <field name="name">Plancher chauffant hydraulique à basse température</field>
+        </record>
+        <record id="op_cee_bar_th_117" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-117</field>
+            <field name="secteur">bar</field>
+            <field name="name">Robinet thermostatique</field>
+        </record>
+        <record id="op_cee_bar_th_118" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-118</field>
+            <field name="secteur">bar</field>
+            <field name="name">Système de régulation par programmation d'intermittence</field>
+        </record>
+        <record id="op_cee_bar_th_121" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-121</field>
+            <field name="secteur">bar</field>
+            <field name="name">Système de comptage individuel d'énergie de chauffage</field>
+        </record>
+        <record id="op_cee_bar_th_122" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-122</field>
+            <field name="secteur">bar</field>
+            <field name="name">Récupérateur de chaleur à condensation</field>
+        </record>
+        <record id="op_cee_bar_th_123" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-123</field>
+            <field name="secteur">bar</field>
+            <field name="name">Système de régulation d'intermittence par programmation — Optimiseur de relance en chauffage collectif</field>
+        </record>
+        <record id="op_cee_bar_th_124" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-124</field>
+            <field name="secteur">bar</field>
+            <field name="name">Chauffe-eau solaire individuel (France d'outre-mer)</field>
+        </record>
+        <record id="op_cee_bar_th_125" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-125</field>
+            <field name="secteur">bar</field>
+            <field name="name">Système de ventilation double flux autoréglable ou modulé à haute performance (France métropolitaine)</field>
+        </record>
+        <record id="op_cee_bar_th_127" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-127</field>
+            <field name="secteur">bar</field>
+            <field name="name">Ventilation mécanique simple flux hygroréglable (France métropolitaine)</field>
+        </record>
+        <record id="op_cee_bar_th_129" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-129</field>
+            <field name="secteur">bar</field>
+            <field name="name">Pompe à chaleur de type air/air</field>
+        </record>
+        <record id="op_cee_bar_th_130" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-130</field>
+            <field name="secteur">bar</field>
+            <field name="name">Surperformance énergétique pour un bâtiment neuf (France métropolitaine)</field>
+        </record>
+        <record id="op_cee_bar_th_131" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-131</field>
+            <field name="secteur">bar</field>
+            <field name="name">Isolation d'un réseau hydraulique d'eau chaude sanitaire</field>
+        </record>
+        <record id="op_cee_bar_th_135" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-135</field>
+            <field name="secteur">bar</field>
+            <field name="name">Chauffe-eau solaire collectif (France d'outre-mer)</field>
+        </record>
+        <record id="op_cee_bar_th_137" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-137</field>
+            <field name="secteur">bar</field>
+            <field name="name">Raccordement d'un bâtiment résidentiel à un réseau de chaleur</field>
+        </record>
+        <record id="op_cee_bar_th_139" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-139</field>
+            <field name="secteur">bar</field>
+            <field name="name">Système de variation électronique de vitesse sur une pompe</field>
+        </record>
+        <record id="op_cee_bar_th_141" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-141</field>
+            <field name="secteur">bar</field>
+            <field name="name">Climatiseur performant (France d'outre-mer)</field>
+        </record>
+        <record id="op_cee_bar_th_143" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-143</field>
+            <field name="secteur">bar</field>
+            <field name="name">Système solaire combiné (France métropolitaine)</field>
+        </record>
+        <record id="op_cee_bar_th_145" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-145</field>
+            <field name="secteur">bar</field>
+            <field name="name">Rénovation globale d'un bâtiment résidentiel (France métropolitaine)</field>
+        </record>
+        <record id="op_cee_bar_th_148" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-148</field>
+            <field name="secteur">bar</field>
+            <field name="name">Chauffe-eau thermodynamique à accumulation</field>
+        </record>
+        <record id="op_cee_bar_th_150" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-150</field>
+            <field name="secteur">bar</field>
+            <field name="name">Pompe à chaleur collective à absorption de type air/eau ou eau/eau</field>
+        </record>
+        <record id="op_cee_bar_th_155" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-155</field>
+            <field name="secteur">bar</field>
+            <field name="name">Ventilation hybride hygroréglable (France métropolitaine)</field>
+        </record>
+        <record id="op_cee_bar_th_158" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-158</field>
+            <field name="secteur">bar</field>
+            <field name="name">Émetteur électrique à régulation électronique à fonctions avancées</field>
+        </record>
+        <record id="op_cee_bar_th_159" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-159</field>
+            <field name="secteur">bar</field>
+            <field name="name">Pompe à chaleur hybride individuelle</field>
+        </record>
+        <record id="op_cee_bar_th_160" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-160</field>
+            <field name="secteur">bar</field>
+            <field name="name">Isolation d'un réseau hydraulique de chauffage ou d'eau chaude sanitaire</field>
+        </record>
+        <record id="op_cee_bar_th_161" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-161</field>
+            <field name="secteur">bar</field>
+            <field name="name">Système énergétique comportant des capteurs solaires photovoltaïques et thermiques à circulation d'eau (France métropolitaine)</field>
+        </record>
+        <record id="op_cee_bar_th_162" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-162</field>
+            <field name="secteur">bar</field>
+            <field name="name">Conduit d'évacuation des produits de combustion</field>
+        </record>
+        <record id="op_cee_bar_th_163" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-163</field>
+            <field name="secteur">bar</field>
+            <field name="name">Pompe à chaleur de type air/eau</field>
+        </record>
+        <record id="op_cee_bar_th_164" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-164</field>
+            <field name="secteur">bar</field>
+            <field name="name">Chaudière biomasse collective</field>
+        </record>
+        <record id="op_cee_bar_th_165" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-165</field>
+            <field name="secteur">bar</field>
+            <field name="name">Isolation de points singuliers d'un réseau</field>
+        </record>
+        <record id="op_cee_bar_th_166" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-166</field>
+            <field name="secteur">bar</field>
+            <field name="name">Pompe à chaleur collective de type air/eau ou eau/eau</field>
+        </record>
+        <record id="op_cee_bar_th_167" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-167</field>
+            <field name="secteur">bar</field>
+            <field name="name">Système énergétique comportant des capteurs solaires photovoltaïques et thermiques à circulation d'eau (France métropolitaine)</field>
+        </record>
+        <record id="op_cee_bar_th_168" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-168</field>
+            <field name="secteur">bar</field>
+            <field name="name">Dispositif solaire thermique (France métropolitaine)</field>
+        </record>
+        <record id="op_cee_bar_th_169" model="ibatix.operation.cee">
+            <field name="code">BAR-TH-169</field>
+            <field name="secteur">bar</field>
+            <field name="name">Pompe à chaleur collective de type air/eau ou eau/eau pour l'eau chaude sanitaire</field>
+        </record>
+        <record id="op_cee_bat_en_101" model="ibatix.operation.cee">
+            <field name="code">BAT-EN-101</field>
+            <field name="secteur">bat</field>
+            <field name="name">Isolation de combles ou de toitures</field>
+        </record>
+        <record id="op_cee_bat_en_102" model="ibatix.operation.cee">
+            <field name="code">BAT-EN-102</field>
+            <field name="secteur">bat</field>
+            <field name="name">Isolation des murs</field>
+        </record>
+        <record id="op_cee_bat_en_103" model="ibatix.operation.cee">
+            <field name="code">BAT-EN-103</field>
+            <field name="secteur">bat</field>
+            <field name="name">Isolation d'un plancher</field>
+        </record>
+        <record id="op_cee_bat_en_104" model="ibatix.operation.cee">
+            <field name="code">BAT-EN-104</field>
+            <field name="secteur">bat</field>
+            <field name="name">Fenêtre ou porte-fenêtre complète avec vitrage isolant</field>
+        </record>
+        <record id="op_cee_bat_en_106" model="ibatix.operation.cee">
+            <field name="code">BAT-EN-106</field>
+            <field name="secteur">bat</field>
+            <field name="name">Isolation de combles ou de toitures (France d'outre-mer)</field>
+        </record>
+        <record id="op_cee_bat_en_107" model="ibatix.operation.cee">
+            <field name="code">BAT-EN-107</field>
+            <field name="secteur">bat</field>
+            <field name="name">Isolation des toitures terrasses</field>
+        </record>
+        <record id="op_cee_bat_en_108" model="ibatix.operation.cee">
+            <field name="code">BAT-EN-108</field>
+            <field name="secteur">bat</field>
+            <field name="name">Isolation des murs (France d'outre-mer)</field>
+        </record>
+        <record id="op_cee_bat_en_109" model="ibatix.operation.cee">
+            <field name="code">BAT-EN-109</field>
+            <field name="secteur">bat</field>
+            <field name="name">Réduction des apports solaires par la toiture (France d'outre-mer)</field>
+        </record>
+        <record id="op_cee_bat_en_110" model="ibatix.operation.cee">
+            <field name="code">BAT-EN-110</field>
+            <field name="secteur">bat</field>
+            <field name="name">Protections des baies contre le rayonnement solaire (France d'outre-mer)</field>
+        </record>
+        <record id="op_cee_bat_en_111" model="ibatix.operation.cee">
+            <field name="code">BAT-EN-111</field>
+            <field name="secteur">bat</field>
+            <field name="name">Fenêtre ou porte-fenêtre complète avec vitrage pariétodynamique (France métropolitaine)</field>
+        </record>
+        <record id="op_cee_bat_en_112" model="ibatix.operation.cee">
+            <field name="code">BAT-EN-112</field>
+            <field name="secteur">bat</field>
+            <field name="name">Revêtements réflectifs en toiture</field>
+        </record>
+        <record id="op_cee_bat_eq_111" model="ibatix.operation.cee">
+            <field name="code">BAT-EQ-111</field>
+            <field name="secteur">bat</field>
+            <field name="name">Luminaires à modules LED pour surfaces commerciales</field>
+        </record>
+        <record id="op_cee_bat_eq_114" model="ibatix.operation.cee">
+            <field name="code">BAT-EQ-114</field>
+            <field name="secteur">bat</field>
+            <field name="name">Éclairage LED pour meubles frigorifiques verticaux</field>
+        </record>
+        <record id="op_cee_bat_eq_116" model="ibatix.operation.cee">
+            <field name="code">BAT-EQ-116</field>
+            <field name="secteur">bat</field>
+            <field name="name">Lampe à LED de classe A+ (France d'outre-mer)</field>
+        </record>
+        <record id="op_cee_bat_eq_117" model="ibatix.operation.cee">
+            <field name="code">BAT-EQ-117</field>
+            <field name="secteur">bat</field>
+            <field name="name">Installation frigorifique utilisant le CO2 subcritique ou transcritique</field>
+        </record>
+        <record id="op_cee_bat_eq_123" model="ibatix.operation.cee">
+            <field name="code">BAT-EQ-123</field>
+            <field name="secteur">bat</field>
+            <field name="name">Moto-variateur synchrone à aimants permanents ou à reluctance</field>
+        </record>
+        <record id="op_cee_bat_eq_124" model="ibatix.operation.cee">
+            <field name="code">BAT-EQ-124</field>
+            <field name="secteur">bat</field>
+            <field name="name">Moto-variateur synchrone à aimants permanents ou à reluctance</field>
+        </record>
+        <record id="op_cee_bat_eq_125" model="ibatix.operation.cee">
+            <field name="code">BAT-EQ-125</field>
+            <field name="secteur">bat</field>
+            <field name="name">Fermeture des meubles frigorifiques de vente à température négative</field>
+        </record>
+        <record id="op_cee_bat_eq_126" model="ibatix.operation.cee">
+            <field name="code">BAT-EQ-126</field>
+            <field name="secteur">bat</field>
+            <field name="name">Lampe ou luminaire à modules LED pour l'éclairage d'accentuation</field>
+        </record>
+        <record id="op_cee_bat_eq_127" model="ibatix.operation.cee">
+            <field name="code">BAT-EQ-127</field>
+            <field name="secteur">bat</field>
+            <field name="name">Luminaire d'éclairage général à modules LED</field>
+        </record>
+        <record id="op_cee_bat_eq_129" model="ibatix.operation.cee">
+            <field name="code">BAT-EQ-129</field>
+            <field name="secteur">bat</field>
+            <field name="name">Lanterneaux d'éclairage zénithal (France Métropolitaine)</field>
+        </record>
+        <record id="op_cee_bat_eq_130" model="ibatix.operation.cee">
+            <field name="code">BAT-EQ-130</field>
+            <field name="secteur">bat</field>
+            <field name="name">Système de condensation frigorifique à haute efficacité</field>
+        </record>
+        <record id="op_cee_bat_eq_131" model="ibatix.operation.cee">
+            <field name="code">BAT-EQ-131</field>
+            <field name="secteur">bat</field>
+            <field name="name">Conduits de lumière naturelle</field>
+        </record>
+        <record id="op_cee_bat_eq_132" model="ibatix.operation.cee">
+            <field name="code">BAT-EQ-132</field>
+            <field name="secteur">bat</field>
+            <field name="name">Tubes à LED à éclairage hémisphérique</field>
+        </record>
+        <record id="op_cee_bat_eq_133" model="ibatix.operation.cee">
+            <field name="code">BAT-EQ-133</field>
+            <field name="secteur">bat</field>
+            <field name="name">Systèmes hydro-économes (France métropolitaine)</field>
+        </record>
+        <record id="op_cee_bat_eq_134" model="ibatix.operation.cee">
+            <field name="code">BAT-EQ-134</field>
+            <field name="secteur">bat</field>
+            <field name="name">Meuble frigorifique de vente performant avec groupe de production de froid intégré</field>
+        </record>
+        <record id="op_cee_bat_se_103" model="ibatix.operation.cee">
+            <field name="code">BAT-SE-103</field>
+            <field name="secteur">bat</field>
+            <field name="name">Réglage des organes d'équilibrage d'une installation de chauffage à eau chaude</field>
+        </record>
+        <record id="op_cee_bat_se_104" model="ibatix.operation.cee">
+            <field name="code">BAT-SE-104</field>
+            <field name="secteur">bat</field>
+            <field name="name">Contrat de performance énergétique Services (CPE Services) Chauffage</field>
+        </record>
+        <record id="op_cee_bat_se_105" model="ibatix.operation.cee">
+            <field name="code">BAT-SE-105</field>
+            <field name="secteur">bat</field>
+            <field name="name">Abaissement de la température de retour vers un réseau de chaleur</field>
+        </record>
+        <record id="op_cee_bat_th_102" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-102</field>
+            <field name="secteur">bat</field>
+            <field name="name">Chaudière collective haute performance énergétique</field>
+        </record>
+        <record id="op_cee_bat_th_103" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-103</field>
+            <field name="secteur">bat</field>
+            <field name="name">Plancher chauffant hydraulique à basse température</field>
+        </record>
+        <record id="op_cee_bat_th_104" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-104</field>
+            <field name="secteur">bat</field>
+            <field name="name">Robinet thermostatique</field>
+        </record>
+        <record id="op_cee_bat_th_105" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-105</field>
+            <field name="secteur">bat</field>
+            <field name="name">Radiateur basse température pour un chauffage central</field>
+        </record>
+        <record id="op_cee_bat_th_106" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-106</field>
+            <field name="secteur">bat</field>
+            <field name="name">Isolation d'un réseau hydraulique de chauffage</field>
+        </record>
+        <record id="op_cee_bat_th_108" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-108</field>
+            <field name="secteur">bat</field>
+            <field name="name">Système de régulation par programmation d'intermittence</field>
+        </record>
+        <record id="op_cee_bat_th_109" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-109</field>
+            <field name="secteur">bat</field>
+            <field name="name">Optimiseur de relance en chauffage collectif comprenant une fonction auto-adaptative</field>
+        </record>
+        <record id="op_cee_bat_th_110" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-110</field>
+            <field name="secteur">bat</field>
+            <field name="name">Récupérateur de chaleur à condensation</field>
+        </record>
+        <record id="op_cee_bat_th_111" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-111</field>
+            <field name="secteur">bat</field>
+            <field name="name">Ventilation mécanique simple flux à débit d'air constant ou modulé</field>
+        </record>
+        <record id="op_cee_bat_th_112" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-112</field>
+            <field name="secteur">bat</field>
+            <field name="name">Système de variation électronique de vitesse sur un moteur asynchrone</field>
+        </record>
+        <record id="op_cee_bat_th_113" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-113</field>
+            <field name="secteur">bat</field>
+            <field name="name">Pompe à chaleur de type air/eau ou eau/eau</field>
+        </record>
+        <record id="op_cee_bat_th_115" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-115</field>
+            <field name="secteur">bat</field>
+            <field name="name">Climatiseur performant (France d'outre-mer)</field>
+        </record>
+        <record id="op_cee_bat_th_116" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-116</field>
+            <field name="secteur">bat</field>
+            <field name="name">Système de production d'eau chaude sanitaire, le refroidissement/climatisation, l'éclairage et les auxiliaires</field>
+        </record>
+        <record id="op_cee_bat_th_119" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-119</field>
+            <field name="secteur">bat</field>
+            <field name="name">Isolation d'un réseau hydraulique d'eau chaude sanitaire</field>
+        </record>
+        <record id="op_cee_bat_th_121" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-121</field>
+            <field name="secteur">bat</field>
+            <field name="name">Chauffe-eau solaire (France d'outre-mer)</field>
+        </record>
+        <record id="op_cee_bat_th_122" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-122</field>
+            <field name="secteur">bat</field>
+            <field name="name">Programmateur d'intermittence pour la climatisation (France d'outre-mer)</field>
+        </record>
+        <record id="op_cee_bat_th_125" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-125</field>
+            <field name="secteur">bat</field>
+            <field name="name">Ventilation mécanique simple flux à débit d'air constant ou modulé (France d'outre-mer)</field>
+        </record>
+        <record id="op_cee_bat_th_126" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-126</field>
+            <field name="secteur">bat</field>
+            <field name="name">Ventilation mécanique double flux avec échangeur à débit d'air constant ou modulé</field>
+        </record>
+        <record id="op_cee_bat_th_127" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-127</field>
+            <field name="secteur">bat</field>
+            <field name="name">Raccordement d'un bâtiment tertiaire à un réseau de chaleur</field>
+        </record>
+        <record id="op_cee_bat_th_134" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-134</field>
+            <field name="secteur">bat</field>
+            <field name="name">Système de régulation sur un groupe de production de froid permettant d'avoir une haute pression flottante (France métropolitaine)</field>
+        </record>
+        <record id="op_cee_bat_th_135" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-135</field>
+            <field name="secteur">bat</field>
+            <field name="name">Système de régulation sur un groupe de production de froid permettant d'avoir une haute pression flottante (France d'outre-mer)</field>
+        </record>
+        <record id="op_cee_bat_th_139" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-139</field>
+            <field name="secteur">bat</field>
+            <field name="name">Système de récupération de chaleur sur un groupe de production de froid</field>
+        </record>
+        <record id="op_cee_bat_th_140" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-140</field>
+            <field name="secteur">bat</field>
+            <field name="name">Pompe à chaleur à absorption de type air/eau ou eau/eau</field>
+        </record>
+        <record id="op_cee_bat_th_141" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-141</field>
+            <field name="secteur">bat</field>
+            <field name="name">Pompe à chaleur à moteur gaz de type air/eau</field>
+        </record>
+        <record id="op_cee_bat_th_142" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-142</field>
+            <field name="secteur">bat</field>
+            <field name="name">Système de déstratification d'air</field>
+        </record>
+        <record id="op_cee_bat_th_143" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-143</field>
+            <field name="secteur">bat</field>
+            <field name="name">Ventilo-convecteurs haute performance</field>
+        </record>
+        <record id="op_cee_bat_th_145" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-145</field>
+            <field name="secteur">bat</field>
+            <field name="name">Système de régulation sur un groupe de production de froid permettant d'avoir une basse pression flottante (France métropolitaine)</field>
+        </record>
+        <record id="op_cee_bat_th_146" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-146</field>
+            <field name="secteur">bat</field>
+            <field name="name">Isolation d'un réseau hydraulique de chauffage ou d'eau chaude sanitaire</field>
+        </record>
+        <record id="op_cee_bat_th_153" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-153</field>
+            <field name="secteur">bat</field>
+            <field name="name">Système de confinement des allées froides et allées chaudes dans un Data Center</field>
+        </record>
+        <record id="op_cee_bat_th_154" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-154</field>
+            <field name="secteur">bat</field>
+            <field name="name">Récupération instantanée de chaleur sur eaux grises</field>
+        </record>
+        <record id="op_cee_bat_th_155" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-155</field>
+            <field name="secteur">bat</field>
+            <field name="name">Isolation de points singuliers d'un réseau</field>
+        </record>
+        <record id="op_cee_bat_th_156" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-156</field>
+            <field name="secteur">bat</field>
+            <field name="name">Freecooling par eau de refroidissement en substitution d'un groupe froid pour la climatisation</field>
+        </record>
+        <record id="op_cee_bat_th_157" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-157</field>
+            <field name="secteur">bat</field>
+            <field name="name">Chaudière biomasse collective</field>
+        </record>
+        <record id="op_cee_bat_th_158" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-158</field>
+            <field name="secteur">bat</field>
+            <field name="name">Pompe à chaleur réversible de type air/air</field>
+        </record>
+        <record id="op_cee_bat_th_159" model="ibatix.operation.cee">
+            <field name="code">BAT-TH-159</field>
+            <field name="secteur">bat</field>
+            <field name="name">Raccordement d'un bâtiment tertiaire à un réseau de froid</field>
+        </record>
+        <record id="op_cee_ind_ba_110" model="ibatix.operation.cee">
+            <field name="code">IND-BA-110</field>
+            <field name="secteur">ind</field>
+            <field name="name">Dé-stratificateur ou brasseur d'air</field>
+        </record>
+        <record id="op_cee_ind_ba_112" model="ibatix.operation.cee">
+            <field name="code">IND-BA-112</field>
+            <field name="secteur">ind</field>
+            <field name="name">Système de récupération de chaleur sur une tour aéroréfrigérante</field>
+        </record>
+        <record id="op_cee_ind_ba_113" model="ibatix.operation.cee">
+            <field name="code">IND-BA-113</field>
+            <field name="secteur">ind</field>
+            <field name="name">Lanterneaux d'éclairage zénithal (France Métropolitaine)</field>
+        </record>
+        <record id="op_cee_ind_ba_114" model="ibatix.operation.cee">
+            <field name="code">IND-BA-114</field>
+            <field name="secteur">ind</field>
+            <field name="name">Conduits de lumière naturelle</field>
+        </record>
+        <record id="op_cee_ind_ba_115" model="ibatix.operation.cee">
+            <field name="code">IND-BA-115</field>
+            <field name="secteur">ind</field>
+            <field name="name">Luminaires à modules LED</field>
+        </record>
+        <record id="op_cee_ind_ba_116" model="ibatix.operation.cee">
+            <field name="code">IND-BA-116</field>
+            <field name="secteur">ind</field>
+            <field name="name">Tubes à LED à éclairage hémisphérique</field>
+        </record>
+        <record id="op_cee_ind_ba_117" model="ibatix.operation.cee">
+            <field name="code">IND-BA-117</field>
+            <field name="secteur">ind</field>
+            <field name="name">Chauffage décentralisé performant</field>
+        </record>
+        <record id="op_cee_ind_en_101" model="ibatix.operation.cee">
+            <field name="code">IND-EN-101</field>
+            <field name="secteur">ind</field>
+            <field name="name">Isolation des murs (France d'outre-mer)</field>
+        </record>
+        <record id="op_cee_ind_en_102" model="ibatix.operation.cee">
+            <field name="code">IND-EN-102</field>
+            <field name="secteur">ind</field>
+            <field name="name">Isolation de combles ou de toitures (France d'outre-mer)</field>
+        </record>
+        <record id="op_cee_ind_ut_102" model="ibatix.operation.cee">
+            <field name="code">IND-UT-102</field>
+            <field name="secteur">ind</field>
+            <field name="name">Système de variation électronique de vitesse sur un moteur asynchrone</field>
+        </record>
+        <record id="op_cee_ind_ut_103" model="ibatix.operation.cee">
+            <field name="code">IND-UT-103</field>
+            <field name="secteur">ind</field>
+            <field name="name">Système de récupération de chaleur sur un compresseur d'air</field>
+        </record>
+        <record id="op_cee_ind_ut_104" model="ibatix.operation.cee">
+            <field name="code">IND-UT-104</field>
+            <field name="secteur">ind</field>
+            <field name="name">Économiseur sur les effluents gazeux d'une chaudière de production de vapeur</field>
+        </record>
+        <record id="op_cee_ind_ut_105" model="ibatix.operation.cee">
+            <field name="code">IND-UT-105</field>
+            <field name="secteur">ind</field>
+            <field name="name">Brûleur micromodulant sur chaudière industrielle</field>
+        </record>
+        <record id="op_cee_ind_ut_112" model="ibatix.operation.cee">
+            <field name="code">IND-UT-112</field>
+            <field name="secteur">ind</field>
+            <field name="name">Moteur haut rendement de classe IE2</field>
+        </record>
+        <record id="op_cee_ind_ut_113" model="ibatix.operation.cee">
+            <field name="code">IND-UT-113</field>
+            <field name="secteur">ind</field>
+            <field name="name">Système de condensation frigorifique à haute efficacité</field>
+        </record>
+        <record id="op_cee_ind_ut_114" model="ibatix.operation.cee">
+            <field name="code">IND-UT-114</field>
+            <field name="secteur">ind</field>
+            <field name="name">Moto-variateur synchrone à aimants permanents ou à reluctance</field>
+        </record>
+        <record id="op_cee_ind_ut_115" model="ibatix.operation.cee">
+            <field name="code">IND-UT-115</field>
+            <field name="secteur">ind</field>
+            <field name="name">Système de régulation sur un groupe de production de froid permettant d'avoir une basse pression flottante</field>
+        </record>
+        <record id="op_cee_ind_ut_116" model="ibatix.operation.cee">
+            <field name="code">IND-UT-116</field>
+            <field name="secteur">ind</field>
+            <field name="name">Système de régulation sur un groupe de production de froid permettant d'avoir une haute pression flottante</field>
+        </record>
+        <record id="op_cee_ind_ut_117" model="ibatix.operation.cee">
+            <field name="code">IND-UT-117</field>
+            <field name="secteur">ind</field>
+            <field name="name">Système de récupération de chaleur sur un groupe de production de froid</field>
+        </record>
+        <record id="op_cee_ind_ut_118" model="ibatix.operation.cee">
+            <field name="code">IND-UT-118</field>
+            <field name="secteur">ind</field>
+            <field name="name">Brûleur avec dispositif de récupération de chaleur sur un four industriel</field>
+        </record>
+        <record id="op_cee_ind_ut_120" model="ibatix.operation.cee">
+            <field name="code">IND-UT-120</field>
+            <field name="secteur">ind</field>
+            <field name="name">Compresseur d'air basse pression à vis ou centrifuge</field>
+        </record>
+        <record id="op_cee_ind_ut_121" model="ibatix.operation.cee">
+            <field name="code">IND-UT-121</field>
+            <field name="secteur">ind</field>
+            <field name="name">Matelas pour l'isolation de points singuliers</field>
+        </record>
+        <record id="op_cee_ind_ut_122" model="ibatix.operation.cee">
+            <field name="code">IND-UT-122</field>
+            <field name="secteur">ind</field>
+            <field name="name">Sécheur d'air comprimé à adsorption utilisant un apport calorifique pour sa régénération</field>
+        </record>
+        <record id="op_cee_ind_ut_123" model="ibatix.operation.cee">
+            <field name="code">IND-UT-123</field>
+            <field name="secteur">ind</field>
+            <field name="name">Moteur premium de classe IE3</field>
+        </record>
+        <record id="op_cee_ind_ut_124" model="ibatix.operation.cee">
+            <field name="code">IND-UT-124</field>
+            <field name="secteur">ind</field>
+            <field name="name">Séquenceur électronique pour le pilotage d'une centrale de production d'air comprimé</field>
+        </record>
+        <record id="op_cee_ind_ut_125" model="ibatix.operation.cee">
+            <field name="code">IND-UT-125</field>
+            <field name="secteur">ind</field>
+            <field name="name">Traitement d'eau performant sur chaudière de production de vapeur</field>
+        </record>
+        <record id="op_cee_ind_ut_127" model="ibatix.operation.cee">
+            <field name="code">IND-UT-127</field>
+            <field name="secteur">ind</field>
+            <field name="name">Système de transmission performant</field>
+        </record>
+        <record id="op_cee_ind_ut_129" model="ibatix.operation.cee">
+            <field name="code">IND-UT-129</field>
+            <field name="secteur">ind</field>
+            <field name="name">Presse à injecter tout électrique ou hybride</field>
+        </record>
+        <record id="op_cee_ind_ut_130" model="ibatix.operation.cee">
+            <field name="code">IND-UT-130</field>
+            <field name="secteur">ind</field>
+            <field name="name">Condenseur sur les effluents gazeux d'une chaudière de production de vapeur</field>
+        </record>
+        <record id="op_cee_ind_ut_131" model="ibatix.operation.cee">
+            <field name="code">IND-UT-131</field>
+            <field name="secteur">ind</field>
+            <field name="name">Isolation thermique des parois planes ou cylindriques sur des installations industrielles (France métropolitaine)</field>
+        </record>
+        <record id="op_cee_ind_ut_132" model="ibatix.operation.cee">
+            <field name="code">IND-UT-132</field>
+            <field name="secteur">ind</field>
+            <field name="name">Moteur asynchrone de classe IE4</field>
+        </record>
+        <record id="op_cee_ind_ut_133" model="ibatix.operation.cee">
+            <field name="code">IND-UT-133</field>
+            <field name="secteur">ind</field>
+            <field name="name">Système électronique de pilotage d'un moteur électrique avec récupération d'énergie</field>
+        </record>
+        <record id="op_cee_ind_ut_134" model="ibatix.operation.cee">
+            <field name="code">IND-UT-134</field>
+            <field name="secteur">ind</field>
+            <field name="name">Système de récupération d'énergie sur presse</field>
+        </record>
+        <record id="op_cee_ind_ut_135" model="ibatix.operation.cee">
+            <field name="code">IND-UT-135</field>
+            <field name="secteur">ind</field>
+            <field name="name">Freecooling par eau de refroidissement en substitution d'un groupe froid</field>
+        </record>
+        <record id="op_cee_ind_ut_136" model="ibatix.operation.cee">
+            <field name="code">IND-UT-136</field>
+            <field name="secteur">ind</field>
+            <field name="name">Systèmes moto-régulés</field>
+        </record>
+        <record id="op_cee_res_ch_101" model="ibatix.operation.cee">
+            <field name="code">RES-CH-101</field>
+            <field name="secteur">res</field>
+            <field name="name">Valorisation de chaleur de récupération en réseau (France métropolitaine)</field>
+        </record>
+        <record id="op_cee_res_ch_103" model="ibatix.operation.cee">
+            <field name="code">RES-CH-103</field>
+            <field name="secteur">res</field>
+            <field name="name">Réhabilitation d'un poste de livraison de chaleur d'un bâtiment tertiaire</field>
+        </record>
+        <record id="op_cee_res_ch_104" model="ibatix.operation.cee">
+            <field name="code">RES-CH-104</field>
+            <field name="secteur">res</field>
+            <field name="name">Réhabilitation d'un poste de livraison de chaleur d'un bâtiment résidentiel</field>
+        </record>
+        <record id="op_cee_res_ch_105" model="ibatix.operation.cee">
+            <field name="code">RES-CH-105</field>
+            <field name="secteur">res</field>
+            <field name="name">Passage d'un réseau de chaleur en basse température</field>
+        </record>
+        <record id="op_cee_res_ch_106" model="ibatix.operation.cee">
+            <field name="code">RES-CH-106</field>
+            <field name="secteur">res</field>
+            <field name="name">Mise en place d'un calorifugeage des canalisations d'un réseau de chaleur</field>
+        </record>
+        <record id="op_cee_res_ch_107" model="ibatix.operation.cee">
+            <field name="code">RES-CH-107</field>
+            <field name="secteur">res</field>
+            <field name="name">Isolation de points singuliers sur un réseau de chaleur</field>
+        </record>
+        <record id="op_cee_res_ch_108" model="ibatix.operation.cee">
+            <field name="code">RES-CH-108</field>
+            <field name="secteur">res</field>
+            <field name="name">Récupération de chaleur fatale pour valorisation sur un réseau de chaleur ou vers un tiers (France métropolitaine)</field>
+        </record>
+        <record id="op_cee_res_ec_101" model="ibatix.operation.cee">
+            <field name="code">RES-EC-101</field>
+            <field name="secteur">res</field>
+            <field name="name">Système de régulation de tension en éclairage extérieur</field>
+        </record>
+        <record id="op_cee_res_ec_102" model="ibatix.operation.cee">
+            <field name="code">RES-EC-102</field>
+            <field name="secteur">res</field>
+            <field name="name">Système de maîtrise de la puissance réactive en éclairage extérieur</field>
+        </record>
+        <record id="op_cee_res_ec_103" model="ibatix.operation.cee">
+            <field name="code">RES-EC-103</field>
+            <field name="secteur">res</field>
+            <field name="name">Système de variation de puissance en éclairage extérieur</field>
+        </record>
+        <record id="op_cee_res_ec_104" model="ibatix.operation.cee">
+            <field name="code">RES-EC-104</field>
+            <field name="secteur">res</field>
+            <field name="name">Rénovation d'éclairage extérieur</field>
+        </record>
+        <record id="op_cee_res_ec_107" model="ibatix.operation.cee">
+            <field name="code">RES-EC-107</field>
+            <field name="secteur">res</field>
+            <field name="name">Horloge astronomique pour l'éclairage extérieur</field>
+        </record>
+        <record id="op_cee_tra_eq_101" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-101</field>
+            <field name="secteur">tra</field>
+            <field name="name">Unité de transport intermodal pour le transport combiné rail-route</field>
+        </record>
+        <record id="op_cee_tra_eq_103" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-103</field>
+            <field name="secteur">tra</field>
+            <field name="name">Télématique embarquée pour le suivi de la conduite d'un véhicule</field>
+        </record>
+        <record id="op_cee_tra_eq_104" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-104</field>
+            <field name="secteur">tra</field>
+            <field name="name">Lubrifiant économiseur d'énergie pour véhicules légers</field>
+        </record>
+        <record id="op_cee_tra_eq_106" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-106</field>
+            <field name="secteur">tra</field>
+            <field name="name">Pneus de véhicules légers à basse résistance au roulement</field>
+        </record>
+        <record id="op_cee_tra_eq_107" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-107</field>
+            <field name="secteur">tra</field>
+            <field name="name">Unité de transport intermodal pour le transport combiné fluvial-route</field>
+        </record>
+        <record id="op_cee_tra_eq_108" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-108</field>
+            <field name="secteur">tra</field>
+            <field name="name">Wagon d'autoroute ferroviaire</field>
+        </record>
+        <record id="op_cee_tra_eq_109" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-109</field>
+            <field name="secteur">tra</field>
+            <field name="name">Barge fluviale</field>
+        </record>
+        <record id="op_cee_tra_eq_110" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-110</field>
+            <field name="secteur">tra</field>
+            <field name="name">Automoteur fluvial</field>
+        </record>
+        <record id="op_cee_tra_eq_111" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-111</field>
+            <field name="secteur">tra</field>
+            <field name="name">Groupes frigorifiques autonomes à haute efficacité énergétique pour camions, semi-remorques, remorques et caisses mobiles frigorifiques</field>
+        </record>
+        <record id="op_cee_tra_eq_113" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-113</field>
+            <field name="secteur">tra</field>
+            <field name="name">Lubrifiant économiseur d'énergie pour des véhicules de transport de personnes ou de marchandises</field>
+        </record>
+        <record id="op_cee_tra_eq_114" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-114</field>
+            <field name="secteur">tra</field>
+            <field name="name">Remplacement de véhicules par des véhicules neufs performants dans une flotte professionnelle</field>
+        </record>
+        <record id="op_cee_tra_eq_115" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-115</field>
+            <field name="secteur">tra</field>
+            <field name="name">Véhicules de transport de marchandises optimisés</field>
+        </record>
+        <record id="op_cee_tra_eq_117" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-117</field>
+            <field name="secteur">tra</field>
+            <field name="name">Remplacement de véhicules par des véhicules neufs performants pour les particuliers ou les collectivités</field>
+        </record>
+        <record id="op_cee_tra_eq_118" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-118</field>
+            <field name="secteur">tra</field>
+            <field name="name">Lubrifiant économiseur d'énergie pour la pêche professionnelle</field>
+        </record>
+        <record id="op_cee_tra_eq_119" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-119</field>
+            <field name="secteur">tra</field>
+            <field name="name">Optimisation de la combustion et de la propreté des moteurs Diesel</field>
+        </record>
+        <record id="op_cee_tra_eq_120" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-120</field>
+            <field name="secteur">tra</field>
+            <field name="name">Hélice avec tuyère sur une unité de transport fluvial</field>
+        </record>
+        <record id="op_cee_tra_eq_121" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-121</field>
+            <field name="secteur">tra</field>
+            <field name="name">Vélo à assistance électrique</field>
+        </record>
+        <record id="op_cee_tra_eq_122" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-122</field>
+            <field name="secteur">tra</field>
+            <field name="name">« Stop &amp; Start » pour engins automoteurs non routiers neufs</field>
+        </record>
+        <record id="op_cee_tra_eq_123" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-123</field>
+            <field name="secteur">tra</field>
+            <field name="name">Simulateur de conduite</field>
+        </record>
+        <record id="op_cee_tra_eq_124" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-124</field>
+            <field name="secteur">tra</field>
+            <field name="name">Branchement électrique des navires et bateaux à quai</field>
+        </record>
+        <record id="op_cee_tra_eq_125" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-125</field>
+            <field name="secteur">tra</field>
+            <field name="name">« Stop &amp; Start » pour véhicules ferroviaires</field>
+        </record>
+        <record id="op_cee_tra_eq_126" model="ibatix.operation.cee">
+            <field name="code">TRA-EQ-126</field>
+            <field name="secteur">tra</field>
+            <field name="name">Remotorisation en propulsion électrique ou hybride d'un bateau naviguant en eaux intérieures</field>
+        </record>
+        <record id="op_cee_tra_se_101" model="ibatix.operation.cee">
+            <field name="code">TRA-SE-101</field>
+            <field name="secteur">tra</field>
+            <field name="name">Formation d'un chauffeur de transport à la conduite économe</field>
+        </record>
+        <record id="op_cee_tra_se_102" model="ibatix.operation.cee">
+            <field name="code">TRA-SE-102</field>
+            <field name="secteur">tra</field>
+            <field name="name">Formation d'un chauffeur de véhicule léger à la conduite économe</field>
+        </record>
+        <record id="op_cee_tra_se_104" model="ibatix.operation.cee">
+            <field name="code">TRA-SE-104</field>
+            <field name="secteur">tra</field>
+            <field name="name">Station de gonflage des pneumatiques</field>
+        </record>
+        <record id="op_cee_tra_se_105" model="ibatix.operation.cee">
+            <field name="code">TRA-SE-105</field>
+            <field name="secteur">tra</field>
+            <field name="name">Recreusage des pneumatiques</field>
+        </record>
+        <record id="op_cee_tra_se_106" model="ibatix.operation.cee">
+            <field name="code">TRA-SE-106</field>
+            <field name="secteur">tra</field>
+            <field name="name">Mesure et optimisation des consommations de carburant pour une unité de transport fluvial</field>
+        </record>
+        <record id="op_cee_tra_se_107" model="ibatix.operation.cee">
+            <field name="code">TRA-SE-107</field>
+            <field name="secteur">tra</field>
+            <field name="name">Carénage sur une unité de transport fluvial</field>
+        </record>
+        <record id="op_cee_tra_se_108" model="ibatix.operation.cee">
+            <field name="code">TRA-SE-108</field>
+            <field name="secteur">tra</field>
+            <field name="name">Gestion externalisée de la globalité du poste pneumatique (Véhicules de transport de marchandises)</field>
+        </record>
+        <record id="op_cee_tra_se_109" model="ibatix.operation.cee">
+            <field name="code">TRA-SE-109</field>
+            <field name="secteur">tra</field>
+            <field name="name">Gestion externalisée de la globalité du poste pneumatique (Véhicules de transport de personnes)</field>
+        </record>
+        <record id="op_cee_tra_se_110" model="ibatix.operation.cee">
+            <field name="code">TRA-SE-110</field>
+            <field name="secteur">tra</field>
+            <field name="name">Gestion optimisée de la globalité du poste pneumatique (Véhicules de transport de marchandises)</field>
+        </record>
+        <record id="op_cee_tra_se_111" model="ibatix.operation.cee">
+            <field name="code">TRA-SE-111</field>
+            <field name="secteur">tra</field>
+            <field name="name">Gestion optimisée de la globalité du poste pneumatique (Véhicules de transport de personnes)</field>
+        </record>
+        <record id="op_cee_tra_se_112" model="ibatix.operation.cee">
+            <field name="code">TRA-SE-112</field>
+            <field name="secteur">tra</field>
+            <field name="name">Service d'autopartage en boucle</field>
+        </record>
+        <record id="op_cee_tra_se_113" model="ibatix.operation.cee">
+            <field name="code">TRA-SE-113</field>
+            <field name="secteur">tra</field>
+            <field name="name">Suivi des consommations de carburants grâce à des cartes privatives</field>
+        </record>
+        <record id="op_cee_tra_se_114" model="ibatix.operation.cee">
+            <field name="code">TRA-SE-114</field>
+            <field name="secteur">tra</field>
+            <field name="name">Covoiturage de longue distance</field>
+        </record>
+        <record id="op_cee_tra_se_115" model="ibatix.operation.cee">
+            <field name="code">TRA-SE-115</field>
+            <field name="secteur">tra</field>
+            <field name="name">Covoiturage de courte distance</field>
+        </record>
+        <record id="op_cee_tra_se_116" model="ibatix.operation.cee">
+            <field name="code">TRA-SE-116</field>
+            <field name="secteur">tra</field>
+            <field name="name">Fret ferroviaire</field>
+        </record>
+    </data>
+</odoo>
+

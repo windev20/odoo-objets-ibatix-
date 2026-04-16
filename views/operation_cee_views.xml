@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_operation_cee_list" model="ir.ui.view">
+        <field name="name">ibatix.operation.cee.list</field>
+        <field name="model">ibatix.operation.cee</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="code"/>
+                <field name="secteur"/>
+                <field name="name"/>
+                <field name="active"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_operation_cee_form" model="ir.ui.view">
+        <field name="name">ibatix.operation.cee.form</field>
+        <field name="model">ibatix.operation.cee</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="code" placeholder="Ex : BAR-TH-171"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="name" placeholder="Intitulé"/>
+                            <field name="secteur"/>
+                            <field name="active"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_operation_cee_search" model="ir.ui.view">
+        <field name="name">ibatix.operation.cee.search</field>
+        <field name="model">ibatix.operation.cee</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="code"/>
+                <field name="name"/>
+                <filter string="Agriculture" name="agri" domain="[('secteur','=','agri')]"/>
+                <filter string="Résidentiel" name="bar" domain="[('secteur','=','bar')]"/>
+                <filter string="Tertiaire" name="bat" domain="[('secteur','=','bat')]"/>
+                <filter string="Industrie" name="ind" domain="[('secteur','=','ind')]"/>
+                <filter string="Réseau" name="res" domain="[('secteur','=','res')]"/>
+                <filter string="Transport" name="tra" domain="[('secteur','=','tra')]"/>
+                <separator/>
+                <filter string="Archivés" name="inactive" domain="[('active','=',False)]"/>
+                <group expand="0" string="Grouper par">
+                    <filter string="Secteur" name="group_secteur" context="{'group_by': 'secteur'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_operation_cee" model="ir.actions.act_window">
+        <field name="name">Opérations CEE</field>
+        <field name="res_model">ibatix.operation.cee</field>
+        <field name="view_mode">list,form</field>
+        <field name="context">{'search_default_group_secteur': 1}</field>
+    </record>
+
+</odoo>

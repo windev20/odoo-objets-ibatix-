@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Menu principal IBATIX -->
+    <menuitem id="menu_ibatix_root"
+              name="IBATIX"
+              sequence="100"/>
+
+    <!-- Sous-menu Configuration -->
+    <menuitem id="menu_ibatix_configuration"
+              name="Configuration"
+              parent="menu_ibatix_root"
+              sequence="10"/>
+
+    <!-- Entrées de menu -->
+    <menuitem id="menu_mandataire_anah"
+              name="Mandataires ANAH"
+              parent="menu_ibatix_configuration"
+              action="action_mandataire_anah"
+              sequence="10"/>
+
+    <menuitem id="menu_delegataire_cee"
+              name="Délégataires CEE"
+              parent="menu_ibatix_configuration"
+              action="action_delegataire_cee"
+              sequence="20"/>
+
+    <menuitem id="menu_mediateur_cee"
+              name="Médiateurs CEE"
+              parent="menu_ibatix_configuration"
+              action="action_mediateur_cee"
+              sequence="30"/>
+
+    <menuitem id="menu_cofrac"
+              name="Cofrac"
+              parent="menu_ibatix_configuration"
+              action="action_cofrac"
+              sequence="40"/>
+
+    <menuitem id="menu_gestionnaire_reseau"
+              name="Gestionnaires de réseau"
+              parent="menu_ibatix_configuration"
+              action="action_gestionnaire_reseau"
+              sequence="50"/>
+
+    <menuitem id="menu_matrice_precarite"
+              name="Matrices de précarité"
+              parent="menu_ibatix_configuration"
+              action="action_matrice_precarite"
+              sequence="60"/>
+
+    <menuitem id="menu_auditeur"
+              name="Auditeurs"
+              parent="menu_ibatix_configuration"
+              action="action_auditeur"
+              sequence="70"/>
+
+    <menuitem id="menu_installateur"
+              name="Installateurs"
+              parent="menu_ibatix_configuration"
+              action="action_installateur"
+              sequence="80"/>
+
+</odoo>

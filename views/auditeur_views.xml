@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_auditeur_list" model="ir.ui.view">
+        <field name="name">ibatix.auditeur.list</field>
+        <field name="model">ibatix.auditeur</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+                <field name="nom_societe"/>
+                <field name="email"/>
+                <field name="mobile"/>
+                <field name="siren"/>
+                <field name="is_default"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_auditeur_form" model="ir.ui.view">
+        <field name="name">ibatix.auditeur.form</field>
+        <field name="model">ibatix.auditeur</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <field name="avatar" widget="image" class="oe_avatar"/>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="Nom"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="street" placeholder="Rue..."/>
+                            <field name="city" placeholder="Ville"/>
+                            <field name="zip" placeholder="Code postal"/>
+                            <field name="email"/>
+                            <field name="mobile"/>
+                            <field name="representant_legal"/>
+                        </group>
+                        <group>
+                            <field name="nom_societe"/>
+                            <field name="siren"/>
+                            <field name="siret"/>
+                            <field name="certificat"/>
+                            <field name="is_default"/>
+                            <field name="signature_image" widget="image"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_auditeur" model="ir.actions.act_window">
+        <field name="name">Auditeurs</field>
+        <field name="res_model">ibatix.auditeur</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+</odoo>

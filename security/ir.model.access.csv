@@ -1,1 +1,14 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_mandataire_anah,ibatix.mandataire.anah,model_ibatix_mandataire_anah,base.group_user,1,1,1,1
+access_delegataire_cee,ibatix.delegataire.cee,model_ibatix_delegataire_cee,base.group_user,1,1,1,1
+access_delegataire_operation,ibatix.delegataire.operation,model_ibatix_delegataire_operation,base.group_user,1,1,1,1
+access_delegataire_contrat,ibatix.delegataire.contrat,model_ibatix_delegataire_contrat,base.group_user,1,1,1,1
+access_mediateur_cee,ibatix.mediateur.cee,model_ibatix_mediateur_cee,base.group_user,1,1,1,1
+access_cofrac,ibatix.cofrac,model_ibatix_cofrac,base.group_user,1,1,1,1
+access_gestionnaire_reseau,ibatix.gestionnaire.reseau,model_ibatix_gestionnaire_reseau,base.group_user,1,1,1,1
+access_matrice_precarite,ibatix.matrice.precarite,model_ibatix_matrice_precarite,base.group_user,1,1,1,1
+access_matrice_precarite_ligne,ibatix.matrice.precarite.ligne,model_ibatix_matrice_precarite_ligne,base.group_user,1,1,1,1
+access_auditeur,ibatix.auditeur,model_ibatix_auditeur,base.group_user,1,1,1,1
+access_installateur,ibatix.installateur,model_ibatix_installateur,base.group_user,1,1,1,1
+access_installateur_assurance,ibatix.installateur.assurance,model_ibatix_installateur_assurance,base.group_user,1,1,1,1
+access_installateur_qualification,ibatix.installateur.qualification,model_ibatix_installateur_qualification,base.group_user,1,1,1,1

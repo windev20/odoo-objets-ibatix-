@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_delegataire_cee_list" model="ir.ui.view">
+        <field name="name">ibatix.delegataire.cee.list</field>
+        <field name="model">ibatix.delegataire.cee</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+                <field name="company"/>
+                <field name="mediateur_id"/>
+                <field name="phone"/>
+                <field name="siren"/>
+                <field name="is_default"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_delegataire_cee_form" model="ir.ui.view">
+        <field name="name">ibatix.delegataire.cee.form</field>
+        <field name="model">ibatix.delegataire.cee</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <field name="logo_rge" widget="image" class="oe_avatar"/>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="Nom"/>
+                        </h1>
+                        <h2>
+                            <field name="company" placeholder="Société"/>
+                        </h2>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="mediateur_id"/>
+                            <field name="street" placeholder="Rue..."/>
+                            <field name="city" placeholder="Ville"/>
+                            <field name="zip" placeholder="Code postal"/>
+                            <field name="phone"/>
+                            <field name="website" placeholder="https://..."/>
+                        </group>
+                        <group>
+                            <field name="siren"/>
+                            <field name="siret"/>
+                            <field name="is_default"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Opérations" name="operations">
+                            <field name="operation_ids">
+                                <list editable="bottom">
+                                    <field name="code"/>
+                                    <field name="cumac_classique"/>
+                                    <field name="cumac_precaire"/>
+                                    <field name="cumac_total"/>
+                                </list>
+                            </field>
+                        </page>
+                        <page string="Multi-contrat" name="multi_contrat">
+                            <field name="contrat_ids">
+                                <list editable="bottom">
+                                    <field name="numero_contrat"/>
+                                    <field name="objectif"/>
+                                    <field name="date_debut"/>
+                                    <field name="date_fin"/>
+                                    <field name="valo_precaire_reelle"/>
+                                    <field name="valo_precaire_client"/>
+                                    <field name="diff_precaire"/>
+                                    <field name="valo_classique_reelle"/>
+                                    <field name="valo_classique_client"/>
+                                    <field name="diff_classique"/>
+                                </list>
+                            </field>
+                        </page>
+                        <page string="Mentions et réductions" name="mentions">
+                            <group string="CEE">
+                                <group string="Citation">
+                                    <field name="citation_mention_totale"/>
+                                    <field name="citation_mention_corps"/>
+                                </group>
+                                <group string="Facture d'achat">
+                                    <field name="facture_mention_totale"/>
+                                    <field name="facture_mention_corps"/>
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Rapport" name="rapport">
+                            <group>
+                                <group>
+                                    <field name="exige_manuscrit"/>
+                                    <field name="modele_rapport_id"/>
+                                    <field name="signature_image" widget="image"/>
+                                </group>
+                                <group>
+                                    <field name="mentions_finales_ah"/>
+                                </group>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_delegataire_cee" model="ir.actions.act_window">
+        <field name="name">Délégataires CEE</field>
+        <field name="res_model">ibatix.delegataire.cee</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+</odoo>

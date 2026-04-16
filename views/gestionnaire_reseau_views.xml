@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_gestionnaire_reseau_list" model="ir.ui.view">
+        <field name="name">ibatix.gestionnaire.reseau.list</field>
+        <field name="model">ibatix.gestionnaire.reseau</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+                <field name="email"/>
+                <field name="mobile"/>
+                <field name="siren"/>
+                <field name="siret"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_gestionnaire_reseau_form" model="ir.ui.view">
+        <field name="name">ibatix.gestionnaire.reseau.form</field>
+        <field name="model">ibatix.gestionnaire.reseau</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <field name="logo" widget="image" class="oe_avatar"/>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="Nom"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="street" placeholder="Rue..."/>
+                            <field name="city" placeholder="Ville"/>
+                            <field name="zip" placeholder="Code postal"/>
+                            <field name="email"/>
+                            <field name="mobile"/>
+                        </group>
+                        <group>
+                            <field name="siren"/>
+                            <field name="siret"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_gestionnaire_reseau" model="ir.actions.act_window">
+        <field name="name">Gestionnaires de réseau</field>
+        <field name="res_model">ibatix.gestionnaire.reseau</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+</odoo>

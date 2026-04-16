@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_matrice_precarite_list" model="ir.ui.view">
+        <field name="name">ibatix.matrice.precarite.list</field>
+        <field name="model">ibatix.matrice.precarite</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+                <field name="date_debut"/>
+                <field name="date_fin"/>
+                <field name="active"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_matrice_precarite_form" model="ir.ui.view">
+        <field name="name">ibatix.matrice.precarite.form</field>
+        <field name="model">ibatix.matrice.precarite</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="Ex : Matrice 2026"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="date_debut"/>
+                            <field name="date_fin"/>
+                        </group>
+                        <group>
+                            <field name="active"/>
+                        </group>
+                    </group>
+                    <field name="ligne_ids">
+                        <list editable="bottom">
+                            <field name="zone"/>
+                            <field name="nb_personnes"/>
+                            <field name="plafond_tres_modeste"/>
+                            <field name="plafond_modeste"/>
+                            <field name="plafond_intermediaire"/>
+                        </list>
+                    </field>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_matrice_precarite" model="ir.actions.act_window">
+        <field name="name">Matrices de précarité</field>
+        <field name="res_model">ibatix.matrice.precarite</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+</odoo>

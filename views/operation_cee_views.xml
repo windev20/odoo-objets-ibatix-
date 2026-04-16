@@ -9,6 +9,9 @@
                 <field name="code"/>
                 <field name="secteur"/>
                 <field name="name"/>
+                <field name="fiche_date_validite"/>
+                <field name="fiche_pdf" widget="binary" filename="fiche_pdf_filename"/>
+                <field name="fiche_pdf_filename" column_invisible="1"/>
                 <field name="active"/>
             </list>
         </field>
@@ -29,7 +32,12 @@
                         <group>
                             <field name="name" placeholder="Intitulé"/>
                             <field name="secteur"/>
+                            <field name="fiche_date_validite"/>
                             <field name="active"/>
+                        </group>
+                        <group>
+                            <field name="fiche_pdf" widget="binary" filename="fiche_pdf_filename"/>
+                            <field name="fiche_pdf_filename" invisible="1"/>
                         </group>
                     </group>
                 </sheet>

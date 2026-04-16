@@ -17,6 +17,9 @@ class IbatixOperationCee(models.Model):
         ('tra', 'Transport'),
     ], string='Secteur', required=True)
     active = fields.Boolean(string='Actif', default=True)
+    fiche_pdf = fields.Binary(string='Fiche PDF', attachment=True)
+    fiche_pdf_filename = fields.Char(string='Nom du fichier PDF')
+    fiche_date_validite = fields.Date(string='Valide à compter du')
 
     _sql_constraints = [
         ('code_unique', 'UNIQUE(code)', 'Le code opération CEE doit être unique.'),

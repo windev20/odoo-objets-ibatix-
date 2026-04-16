@@ -1,4 +1,4 @@
-from odoo import fields, models
+from odoo import api, fields, models
 
 
 class IbatixOperationCee(models.Model):
@@ -20,6 +20,11 @@ class IbatixOperationCee(models.Model):
     fiche_pdf = fields.Binary(string='Fiche PDF', attachment=True)
     fiche_pdf_filename = fields.Char(string='Nom du fichier PDF')
     fiche_date_validite = fields.Date(string='Valide à compter du')
+
+    @api.depends('code', 'name')
+    def _compute_display_name(self):
+        for rec in self:
+            rec.display_name = f"{rec.code} — {rec.name}" if rec.code and rec.name else rec.code or rec.name or ''
 
     _sql_constraints = [
         ('code_unique', 'UNIQUE(code)', 'Le code opération CEE doit être unique.'),

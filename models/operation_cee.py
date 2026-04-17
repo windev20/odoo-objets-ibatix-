@@ -21,6 +21,13 @@ class IbatixOperationCee(models.Model):
     fiche_pdf_filename = fields.Char(string='Nom du fichier PDF')
     fiche_date_validite = fields.Date(string='Valide à compter du')
 
+    @api.model
+    def _name_search(self, name='', domain=None, operator='ilike', limit=100, order=None):
+        domain = domain or []
+        if name:
+            domain = ['|', ('code', operator, name), ('name', operator, name)] + domain
+        return self._search(domain, limit=limit, order=order)
+
     @api.depends('code', 'name')
     def _compute_display_name(self):
         for rec in self:

@@ -22,11 +22,11 @@ class IbatixOperationCee(models.Model):
     fiche_date_validite = fields.Date(string='Valide à compter du')
 
     @api.model
-    def _name_search(self, name='', domain=None, operator='ilike', limit=100, order=None):
-        domain = domain or []
+    def _name_search(self, name='', args=None, operator='ilike', limit=100, name_get_uid=None):
+        args = args or []
         if name:
-            domain = ['|', ('code', operator, name), ('name', operator, name)] + domain
-        return self._search(domain, limit=limit, order=order)
+            args = ['|', ('code', operator, name), ('name', operator, name)] + args
+        return self._search(args, limit=limit, access_rights_uid=name_get_uid)
 
     @api.depends('code', 'name')
     def _compute_display_name(self):

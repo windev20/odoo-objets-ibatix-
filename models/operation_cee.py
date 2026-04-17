@@ -5,6 +5,7 @@ class IbatixOperationCee(models.Model):
     _name = 'ibatix.operation.cee'
     _description = 'Opération CEE standardisée'
     _order = 'code'
+    _rec_names_search = ['code', 'name']
 
     code = fields.Char(string='Code', required=True, index=True)
     name = fields.Char(string='Intitulé', required=True)
@@ -20,13 +21,6 @@ class IbatixOperationCee(models.Model):
     fiche_pdf = fields.Binary(string='Fiche PDF', attachment=True)
     fiche_pdf_filename = fields.Char(string='Nom du fichier PDF')
     fiche_date_validite = fields.Date(string='Valide à compter du')
-
-    @api.model
-    def _name_search(self, name='', args=None, operator='ilike', limit=100, name_get_uid=None):
-        args = args or []
-        if name:
-            args = ['|', ('code', operator, name), ('name', operator, name)] + args
-        return self._search(args, limit=limit, access_rights_uid=name_get_uid)
 
     @api.depends('code', 'name')
     def _compute_display_name(self):

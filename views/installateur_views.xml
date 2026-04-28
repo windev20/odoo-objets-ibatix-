@@ -75,6 +75,7 @@
                                     <field name="sequence" widget="handle"/>
                                     <field name="name"/>
                                     <field name="nom_certificat"/>
+                                    <field name="organisme"/>
                                     <field name="numero_rge"/>
                                     <field name="start_date"/>
                                     <field name="end_date"/>

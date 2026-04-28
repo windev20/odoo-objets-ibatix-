@@ -17,6 +17,10 @@ class IbatixOperationCee(models.Model):
         ('res', 'Réseau'),
         ('tra', 'Transport'),
     ], string='Secteur', required=True)
+    cible = fields.Selection([
+        ('particulier', 'Particulier'),
+        ('professionnel', 'Professionnel'),
+    ], string='Cible', index=True)
     active = fields.Boolean(string='Actif', default=True)
     fiche_pdf = fields.Binary(string='Fiche PDF', attachment=True)
     fiche_pdf_filename = fields.Char(string='Nom du fichier PDF')

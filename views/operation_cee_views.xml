@@ -8,6 +8,9 @@
             <list>
                 <field name="code"/>
                 <field name="secteur"/>
+                <field name="cible" widget="badge"
+                    decoration-success="cible == 'particulier'"
+                    decoration-info="cible == 'professionnel'"/>
                 <field name="name"/>
                 <field name="fiche_date_validite"/>
                 <field name="fiche_pdf" widget="binary" filename="fiche_pdf_filename"/>
@@ -32,6 +35,7 @@
                         <group>
                             <field name="name" placeholder="Intitulé"/>
                             <field name="secteur"/>
+                            <field name="cible"/>
                             <field name="fiche_date_validite"/>
                             <field name="active"/>
                         </group>
@@ -52,13 +56,19 @@
             <search>
                 <field name="code"/>
                 <field name="name"/>
+                <separator/>
+                <filter string="Particulier" name="particulier" domain="[('cible','=','particulier')]"/>
+                <filter string="Professionnel" name="professionnel" domain="[('cible','=','professionnel')]"/>
+                <separator/>
                 <filter string="Agriculture" name="agri" domain="[('secteur','=','agri')]"/>
                 <filter string="Résidentiel" name="bar" domain="[('secteur','=','bar')]"/>
                 <filter string="Tertiaire" name="bat" domain="[('secteur','=','bat')]"/>
                 <filter string="Industrie" name="ind" domain="[('secteur','=','ind')]"/>
                 <filter string="Réseau" name="res" domain="[('secteur','=','res')]"/>
                 <filter string="Transport" name="tra" domain="[('secteur','=','tra')]"/>
+                <separator/>
                 <filter string="Archivés" name="inactive" domain="[('active','=',False)]"/>
+                <filter string="Grouper par cible" name="group_cible" context="{'group_by': 'cible'}"/>
                 <filter string="Grouper par secteur" name="group_secteur" context="{'group_by': 'secteur'}"/>
             </search>
         </field>

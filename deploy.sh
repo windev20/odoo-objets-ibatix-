@@ -1,60 +1,45 @@
 #!/usr/bin/env bash
 # deploy.sh — Déploie le module objets_ibatix sur le serveur Odoo
-# Usage : ./deploy.sh
+# Usage : ./deploy.sh [install|upgrade]  (défaut : upgrade)
+#
+# IMPORTANT : n'utilise PAS XML-RPC pour la migration.
+# La migration tourne via --stop-after-init directement dans le
+# container Docker (synchrone, sans timeout HTTP).
 
 set -e
 
-SERVER="82.165.222.171"
-ADDON_PATH="/opt/odoo19/addons/objets_ibatix"
-ODOO_URL="https://ibatix.neosoft.cloud"
-ODOO_DB="ibatix"
-ODOO_USER="jj.beol@gmail.com"
-ODOO_PASS="Odeli@@;-)2009"
+ACTION="${1:-upgrade}"
+MODULE="objets_ibatix"
+
+source "$(dirname "$0")/../server.conf"
+ADDON_PATH="${ADDONS_PATH}/${MODULE}"
 
 echo "=== 1/3  Push vers GitHub ==="
-git push
+git push -u origin main
 
-echo "=== 2/3  Pull sur le serveur ==="
-ssh root@${SERVER} "
+echo "=== 2/3  Pull + nettoyage sur le serveur ==="
+ssh "${SSH_TARGET}" "
   git config --global --add safe.directory ${ADDON_PATH} &&
   cd ${ADDON_PATH} && git pull &&
-  docker exec -u root odoo19_app bash -c '
-    find /opt/odoo/addons/objets_ibatix -name \"*.pyc\" -delete 2>/dev/null
-    rm -rf /opt/odoo/addons/objets_ibatix/__pycache__
-    chown -R odoo:odoo /opt/odoo/addons/objets_ibatix
-  ' &&
-  docker restart odoo19_app
+  docker exec -u root ${DOCKER_CONTAINER} bash -c '
+    find /opt/odoo/addons/${MODULE} -name \"*.pyc\" -delete 2>/dev/null || true
+    find /opt/odoo/addons/${MODULE} -name \"__pycache__\" -type d -exec rm -rf {} + 2>/dev/null || true
+    chown -R odoo:odoo /opt/odoo/addons/${MODULE}
+  '
 "
 
-echo "Attente redémarrage Odoo (35s)..."
-sleep 35
-
-echo "=== 3/3  Upgrade du module ==="
-python3 - <<PYEOF
-import xmlrpc.client, ssl, sys
-
-ctx = ssl.create_default_context()
-ctx.check_hostname = False
-ctx.verify_mode = ssl.CERT_NONE
-
-url  = "${ODOO_URL}"
-db   = "${ODOO_DB}"
-user = "${ODOO_USER}"
-pwd  = "${ODOO_PASS}"
-
-common = xmlrpc.client.ServerProxy(f"{url}/xmlrpc/2/common", context=ctx)
-uid = common.authenticate(db, user, pwd, {})
-if not uid:
-    print("Erreur : authentification Odoo échouée")
-    sys.exit(1)
-
-models = xmlrpc.client.ServerProxy(f"{url}/xmlrpc/2/object", context=ctx)
-mod_ids = models.execute_kw(db, uid, pwd,
-    'ir.module.module', 'search', [[['name', '=', 'objets_ibatix']]])
-models.execute_kw(db, uid, pwd,
-    'ir.module.module', 'button_immediate_upgrade', [mod_ids])
-print("Module mis à jour avec succès.")
-PYEOF
+echo "=== 3/3  Migration (--stop-after-init) + redémarrage ==="
+ssh "${SSH_TARGET}" "
+  echo 'Lancement de la migration...' &&
+  docker exec ${DOCKER_CONTAINER} python3 ${ODOO_BIN} \
+    -c ${ODOO_CONF} \
+    -d ${ODOO_DB} \
+    -u ${MODULE} \
+    --stop-after-init --no-http 2>&1 | grep -E '(ERROR|WARNING|Module|migration|Done|Modules)' || true &&
+  echo 'Migration terminée. Redémarrage du container...' &&
+  docker restart ${DOCKER_CONTAINER} &&
+  echo 'Redémarrage OK.'
+"
 
 echo ""
-echo "Déploiement terminé."
+echo "Déploiement de ${MODULE} terminé."

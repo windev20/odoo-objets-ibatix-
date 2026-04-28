@@ -63,6 +63,7 @@ class IbatixInstallateurQualification(models.Model):
     public_url = fields.Char(string='Lien URL public')
     numero_rge = fields.Char(string='Numéro RGE')
     nom_certificat = fields.Char(string='Libellé certificat')
+    organisme = fields.Char(string='Organisme certificateur')
     is_api = fields.Boolean(string="Via l'API")
     is_downloaded = fields.Boolean(string='Enregistré comme pièce jointe')
     sequence = fields.Integer(string='Séquence', default=10)

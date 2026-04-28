@@ -82,8 +82,8 @@
                                     <field name="is_api"/>
                                     <field name="is_downloaded"/>
                                     <field name="qualification_file" widget="binary" filename="qualification_filename"/>
-                                    <field name="qualification_filename" invisible="1"/>
-                                    <field name="duration" invisible="1"/>
+                                    <field name="qualification_filename" column_invisible="True"/>
+                                    <field name="duration" column_invisible="True"/>
                                 </list>
                             </field>
                         </page>
